@@ -574,7 +574,7 @@ footer {
     .hero .container {
         flex-direction: column;
         text-align: center;
-        padding-top: 350px;
+        padding-top: 300px;
     }
 
     .hero-image {
@@ -594,7 +594,13 @@ footer {
 
     .about-content {
         flex-direction: column;
+
     }
+    .about-img{
+        max-width: 75%;
+
+    }
+    
 
     .contact-content {
         flex-direction: column;
