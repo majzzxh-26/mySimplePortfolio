@@ -501,6 +501,16 @@ section {
     color: var(--primary-color);
     width: 20px;
 }
+.contact-info a {
+  color: inherit;          /* Use same color as surrounding text */
+  text-decoration: none;   /* Remove underline */
+}
+
+.contact-info a:hover {
+  text-decoration: underline;  /* Optional: underline on hover */
+  color: #3498db;              /* Optional: color change on hover */
+}
+
 
 .social-links {
     display: flex;
